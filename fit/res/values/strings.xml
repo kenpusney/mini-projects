@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Keep Fitter</string>
+    <string name="menu_title">Menu Title</string>
+    <string name="menu_desc">Menu Description</string>
+    <string name="default_text">Large Text</string>
+    <string name="default_btn_label">New Button</string>
+    <string name="submit">Submit</string>
+    <string name="btn_clear_all">Clear all</string>
+</resources>

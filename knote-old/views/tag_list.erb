@@ -1,0 +1,5 @@
+<ul>
+<% @tags.each do |row| %>
+    <li><a href="/tag/<%= row['uri']%>"><%= row['tag']%></a></li>
+<% end %>
+</ul>

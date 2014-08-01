@@ -1,0 +1,9 @@
+<h1><a href="/tag/<%= @tag['uri']%>"><%= @tag['tag']%></a></h1>
+<em><%= @tag['description']%></em>
+<ul>
+<% @notes.each do |note|%>
+	<li>
+		<a 
+			href="/note/<%= note['id']%>" ><%= note['title']%></a><em>[<%= note['add_time']%>]</em></li>
+<% end%>
+</ul>

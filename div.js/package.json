@@ -1,0 +1,27 @@
+{
+	"name": "div.js",
+	"title": "div.js",
+	"description": "A general implementation of integral math operation `div` && `mod`",
+	"version": "0.1.0",
+	"homepage": "http://github.com/kenpusney/div.js",
+	"author": {
+		"name": "Kim Leo",
+		"url": "http://douban.com/people/kenpusney"
+	},
+	"maintainers": [],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/kenpusney/div.js.git"
+	},
+	"bugs": "http://github.com/kenpusney/div.js/issue",
+	"licenses": [
+		{
+			"type": "MIT",
+		}
+	],
+	"devDependencies": {
+		"grunt": "~0.3.17",
+		"coffee": "~1.6.2"
+	},
+	"keywords": []
+}

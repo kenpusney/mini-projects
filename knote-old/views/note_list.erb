@@ -1,0 +1,9 @@
+<h1>List of Notes</h1>
+<dl>
+<% @notes.each do | row | %>
+	<dt><a href="/note/<%= row['id'] %>"><%= row['title']%></a></dt>
+	<dd>
+		<%= row['content']%>
+	</dd>
+<% end %>
+</dl>
